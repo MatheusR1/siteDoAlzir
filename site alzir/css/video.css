@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  min-height: 657px;
+  min-width: 1366px;
+}
+
+#myVideo {
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+}
+
+.inner-container {
+  position: flex;
+  bottom: 0;
+  background: #1f2a33be;
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.title-text {
+  
+  font-size: 200%;
+  color: #dfe5e7;
+  font-family: 'Lobster', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.subtitle {
+  color: #dfe5e7;
+  font-size: 150%;
+  margin-bottom: 1%;
+  font-family: 'Lobster', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.text {
+  
+  font-size: 50px;
+  color: #dfe5e7;
+  margin-bottom: 2%;
+  overflow-y: scroll;
+  height: 84%;
+  overflow-wrap: break-word;
+  font-family: 'Lobster', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
